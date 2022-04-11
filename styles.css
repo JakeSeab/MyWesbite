@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  text-align: center;
+  font-family: Montserrat, monospace;
+  color: #5DADE2;
+  background-color: white;
+}
+h1{
+  font-family: Sacramento, monospace;
+  font-size: 100px;
+}
+.Top{
+  background-color: #5DADE2;
+  padding-top: 80px;
+  color: white;
+}
+.leftCloud{
+  position: absolute;
+  left: 400px;
+  top: 250px;
+}
+.rightCloud{
+  position: absolute;
+  right: 390px;
+  top: 60px;
+}
+
+.profile{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 40px auto 40px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.pc{
+  width: 25%;
+  float: right;
+}
+
+.profit{
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: white;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+
+.bottom-container{
+  background-color: #5DADE2;
+  color: white;
+  padding: 50px;
+}
+
+.contact-me{
+  margin: 40px;
+}
+
+.footer-link{
+  margin: 50px;
+  text-decoration: none;
+  color: #EAEAF6;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+a:hover{
+  color: #11cdd4
+}
+
+.copyright{
+  margin-top: 50px;
+  color: #EAEAF6;
+  font-size: 0.75rem;
+}
+
+.copyright:hover{
+  color: #11cdd4
+}
